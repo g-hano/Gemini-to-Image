@@ -1,22 +1,12 @@
 # Gemini-to-Image
-It is a versatile tool that leverages Google's LLM Gemini, along with HuggingFace models, to generate text and images based on user prompts. It utilizes Langchain for text generation and Hugging Face models for image generation.
-
-The project consists of a Streamlit GUI interface where users can interact with the generated content. Users can upload their own images and provide prompts to generate customized images and text outputs.
-
-Certainly! Here's a template for a README file tailored to your project:
-
----
-
-# Project Name
-
 ## Overview
-[Project Name] is a versatile tool that leverages Google's LLM (Large Language Model) named Gemini, along with Hugging Face models, to generate text and images based on user prompts. It utilizes Langchain for text generation and Hugging Face models for image generation.
+It is a versatile tool that leverages Google's LLM Gemini, along with HuggingFace models, to generate text and images based on user prompts. It utilizes Langchain for text generation and Hugging Face models for image generation.
 
 The project consists of a Streamlit GUI interface where users can interact with the generated content. Users can upload their own images and provide prompts to generate customized images and text outputs.
 
 ## Features
 - Accepts user prompts via text input.
-- Utilizes Google's LLM (Gemini) to generate enhanced prompts based on user input.
+- Utilizes Google's Gemini to generate enhanced prompts based on user input.
 - Generates images based on user prompts.
 - Allows users to upload their own images and provides prompts to generate customized images and text outputs.
 
@@ -26,11 +16,11 @@ The project consists of a Streamlit GUI interface where users can interact with 
 ## Installation
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/projectname.git
+git clone https://github.com/g-hano/Gemini-to-Image.git
 ```
 2. Navigate to the project directory:
 ```
-cd projectname
+cd Gemini-to-Image
 ```
 3. Install dependencies:
 ```
@@ -48,13 +38,11 @@ streamlit run app.py
 [Add screenshots of the Streamlit GUI here]
 
 ## Acknowledgements
-- [Google LLM (Gemini)](https://github.com/google-research/language/tree/master/language/)
-- [Hugging Face Models](https://huggingface.co/models)
-- [Streamlit](https://streamlit.io/)
+- [Google Gemini]([https://github.com/google-research/language/tree/master/language/](https://gemini.google.com/app))
+- Hugging Face Models
+  - [Text-to-Image](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
+  - [Image-to-Image](https://huggingface.co/timbrooks/instruct-pix2pix)
+- [Streamlit](https://docs.streamlit.io/)
 
 ## License
-[Include license information here]
-
----
-
-Feel free to customize and expand upon this template to better suit your project's specific details and requirements!
+MIT
