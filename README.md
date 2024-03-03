@@ -1,8 +1,10 @@
 # Gemini-to-Image
 ## Overview
 It is a versatile tool that leverages Google's LLM Gemini, along with HuggingFace models, to generate text and images based on user prompts. It utilizes Langchain for text generation and Hugging Face models for image generation.
-
 The project consists of a Streamlit GUI interface where users can interact with the generated content. Users can upload their own images and provide prompts to generate customized images and text outputs.
+Check [imgs](https://github.com/g-hano/Gemini-to-Image/tree/main/imgs) folder for usage video.
+
+![img2img](imgs/Img2Img.png)
 
 ## Features
 - Accepts user prompts via text input.
@@ -35,10 +37,10 @@ streamlit run app.py
 2. Access the Streamlit interface in your web browser.
 
 ## Screenshots
-[Add screenshots of the Streamlit GUI here]
+![GUI](imgs/GUI.png)
 
 ## Acknowledgements
-- [Google Gemini]([https://github.com/google-research/language/tree/master/language/](https://gemini.google.com/app))
+- [Google Gemini](https://gemini.google.com/app)
 - Hugging Face Models
   - [Text-to-Image](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
   - [Image-to-Image](https://huggingface.co/timbrooks/instruct-pix2pix)
