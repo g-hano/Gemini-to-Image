@@ -8,7 +8,7 @@ Check [imgs](https://github.com/g-hano/Gemini-to-Image/tree/main/imgs) folder fo
 
 ## Features
 - Accepts user prompts via text input.
-- Utilizes Google's Gemini to generate enhanced prompts based on user input.
+- Utilizes Google's Gemini via Langchain to generate enhanced prompts based on user input.
 - Generates images based on user prompts.
 - Allows users to upload their own images and provides prompts to generate customized images and text outputs.
 
